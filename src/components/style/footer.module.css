@@ -1,0 +1,23 @@
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5rem;
+    border: none;
+    border-top: 4px solid rgb(188,253,76);
+}
+.logo {
+    width: 5rem;
+    margin: auto;
+}
+.logo img {
+    width: 100%;
+}
+.logoName {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}

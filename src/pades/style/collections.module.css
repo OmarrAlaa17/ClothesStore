@@ -1,0 +1,52 @@
+.collectonsContainer {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    min-height: 80vh;
+  
+}
+
+.collectonsContainer h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .5s ease;
+    padding-bottom: 0;
+}
+.con {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.card {
+    margin: 4rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+.imgContainer {
+    width: 40rem;
+    height: 26rem;
+    overflow: hidden;
+}
+.imgContainer img {
+    width: 100%;
+    transition: .5s ease;
+    
+    
+}
+.card p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    transition: .5s ease;
+}
+
+.card:hover  img {
+    transform: scale(1.2);
+    opacity: .5;
+}

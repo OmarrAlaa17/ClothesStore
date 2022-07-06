@@ -1,0 +1,120 @@
+.container{
+    position: absolute;
+    width:650px;
+    height: 70vh;
+    background-color: rgba(10,10,10,0.08);
+    box-shadow: 0px 0px 1px rgba(225,225,225,0.6);
+
+    left: 28.75%;
+}
+
+
+.container ul{
+    position: relative;
+    display: inline-block;
+    gap: 5%;
+
+    align-items: center;
+}
+
+.container ul h3{
+    position: relative;
+    font-weight: 800;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: rgba(225,225,225,0678);
+
+    top:400px;
+}
+
+.container span{
+    position: relative;
+    background-color: transparent;
+    border: 1px solid rgba(225,225,225,0678);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+
+    margin: 10px;
+    top:420px;
+}
+
+.container span:hover{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.container .book{
+    position: absolute;
+
+    width: 500px;
+    height: 320px;
+
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px black;
+
+    left: 11%;
+    top: 2%;
+}
+
+.container .book:hover{
+    opacity: 0.95;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        left: 18%;
+        width:450px;
+        height: 50vh;
+    }
+
+    .container ul h3{
+        font-size: 18px;
+        top:300px;
+    }
+
+    .container .book{
+        position: absolute;
+    
+        width: 400px;
+        height: 40vh;
+        left: 5.5%;
+        top: 2%;
+    }
+
+    .container span{
+        top:300px;
+        width:13px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        left: 15%;
+        width:350px;
+        height: 35vh;
+    }
+
+    .container ul h3{
+        font-size: 15px;
+        top:255px;
+    }
+
+    .container .book{
+        position: absolute;
+    
+        width: 300px;
+        height: 30vh;
+        left: 8%;
+        top: 2%;
+    }
+
+    .container span{
+        top:260px;
+        width:10px;
+        height: 10px;
+    }
+}

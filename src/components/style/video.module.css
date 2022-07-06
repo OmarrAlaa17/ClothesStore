@@ -1,0 +1,37 @@
+.vContainer {
+    text-align: center;
+    border-bottom: solid 2px;
+    border-color:rgba(188, 253, 76, 0.4);
+    padding-bottom: 6rem;
+
+    background-color: rgba(10,10,10,0.9);
+    height: 80vh;
+    align-items: center;
+}
+
+
+.vContainer h1 {
+    text-align: center;
+    color: rgb(188,253,76);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 2rem 2rem;
+    transition: .5s ease;
+}
+.videoContainer {
+    width: 50%;
+    margin: auto;
+}
+.videoContainer img {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .videoContainer {
+        width: 70%;
+        
+    }
+  
+  }
